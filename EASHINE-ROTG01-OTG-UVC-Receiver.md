@@ -47,3 +47,5 @@ mplayer tv:// -tv driver=v4l2:width=640:height=480:device=/dev/video2 -fps 30
 **Record a session using mencoder**
 
 mencoder tv:// -tv driver=v4l2:width=320:height=240:device=/dev/video2 -nosound -ovc lavc -o myvideo.avi
+
+Some credits go to: http://www.linuxintro.org/wiki/Set_up_a_Webcam_with_Linux 
